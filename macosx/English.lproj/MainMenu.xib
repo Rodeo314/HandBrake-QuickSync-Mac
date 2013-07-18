@@ -1335,7 +1335,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 																<object class="NSTextFieldCell" key="NSCell" id="934066385">
 																	<int key="NSCellFlags">67108864</int>
 																	<int key="NSCellFlags2">71303168</int>
-																	<string key="NSContents">Additional Options:</string>
+																	<string key="NSContents">Advanced Options:</string>
 																	<reference key="NSSupport" ref="26"/>
 																	<reference key="NSControlView" ref="796460997"/>
 																	<reference key="NSBackgroundColor" ref="242973447"/>
