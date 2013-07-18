@@ -2,9 +2,9 @@
 <archive type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="7.10">
 	<data>
 		<int key="IBDocument.SystemTarget">1050</int>
-		<string key="IBDocument.SystemVersion">12D78</string>
+		<string key="IBDocument.SystemVersion">12E55</string>
 		<string key="IBDocument.InterfaceBuilderVersion">3084</string>
-		<string key="IBDocument.AppKitVersion">1187.37</string>
+		<string key="IBDocument.AppKitVersion">1187.39</string>
 		<string key="IBDocument.HIToolboxVersion">626.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaPlugin</string>
@@ -360,7 +360,7 @@
 												<string key="NSFrame">{{16, 4}, {892, 14}}</string>
 												<reference key="NSSuperview" ref="1053078401"/>
 												<reference key="NSWindow"/>
-												<reference key="NSNextKeyView"/>
+												<reference key="NSNextKeyView" ref="794651271"/>
 												<bool key="NSEnabled">YES</bool>
 												<object class="NSTextFieldCell" key="NSCell" id="109092334">
 													<int key="NSCellFlags">67108864</int>
@@ -1049,10 +1049,10 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 															<object class="NSTextField" id="102651997">
 																<reference key="NSNextResponder" ref="443817184"/>
 																<int key="NSvFlags">256</int>
-																<string key="NSFrame">{{15, 65}, {79, 13}}</string>
+																<string key="NSFrame">{{15, 25}, {79, 13}}</string>
 																<reference key="NSSuperview" ref="443817184"/>
 																<reference key="NSWindow"/>
-																<reference key="NSNextKeyView" ref="112458239"/>
+																<reference key="NSNextKeyView" ref="349581420"/>
 																<bool key="NSEnabled">YES</bool>
 																<object class="NSTextFieldCell" key="NSCell" id="858212432">
 																	<int key="NSCellFlags">67108864</int>
@@ -1068,7 +1068,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 															<object class="NSTextField" id="8023338">
 																<reference key="NSNextResponder" ref="443817184"/>
 																<int key="NSvFlags">256</int>
-																<string key="NSFrame">{{15, 43}, {79, 13}}</string>
+																<string key="NSFrame">{{15, 3}, {79, 13}}</string>
 																<reference key="NSSuperview" ref="443817184"/>
 																<reference key="NSWindow"/>
 																<reference key="NSNextKeyView" ref="144142005"/>
@@ -1158,7 +1158,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 															<object class="NSPopUpButton" id="112458239">
 																<reference key="NSNextResponder" ref="443817184"/>
 																<int key="NSvFlags">268</int>
-																<string key="NSFrame">{{98, 63}, {126, 15}}</string>
+																<string key="NSFrame">{{98, 23}, {126, 15}}</string>
 																<reference key="NSSuperview" ref="443817184"/>
 																<reference key="NSWindow"/>
 																<reference key="NSNextKeyView" ref="796460997"/>
@@ -1229,7 +1229,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 															<object class="NSPopUpButton" id="144142005">
 																<reference key="NSNextResponder" ref="443817184"/>
 																<int key="NSvFlags">268</int>
-																<string key="NSFrame">{{98, 41}, {126, 15}}</string>
+																<string key="NSFrame">{{98, 1}, {126, 15}}</string>
 																<reference key="NSSuperview" ref="443817184"/>
 																<reference key="NSWindow"/>
 																<reference key="NSNextKeyView" ref="487526549"/>
@@ -1327,7 +1327,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 															<object class="NSTextField" id="796460997">
 																<reference key="NSNextResponder" ref="443817184"/>
 																<int key="NSvFlags">256</int>
-																<string key="NSFrame">{{240, 65}, {110, 13}}</string>
+																<string key="NSFrame">{{240, 25}, {110, 13}}</string>
 																<reference key="NSSuperview" ref="443817184"/>
 																<reference key="NSWindow"/>
 																<reference key="NSNextKeyView" ref="8023338"/>
@@ -1346,10 +1346,10 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 															<object class="NSTextField" id="487526549">
 																<reference key="NSNextResponder" ref="443817184"/>
 																<int key="NSvFlags">268</int>
-																<string key="NSFrame">{{355, 43}, {517, 36}}</string>
+																<string key="NSFrame">{{355, 3}, {517, 36}}</string>
 																<reference key="NSSuperview" ref="443817184"/>
 																<reference key="NSWindow"/>
-																<reference key="NSNextKeyView" ref="349581420"/>
+																<reference key="NSNextKeyView" ref="987137669"/>
 																<string key="NSReuseIdentifierKey">_NS:354</string>
 																<string key="NSAntiCompressionPriority">{250, 750}</string>
 																<bool key="NSEnabled">YES</bool>
@@ -1415,10 +1415,10 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 															<object class="NSTextField" id="349581420">
 																<reference key="NSNextResponder" ref="443817184"/>
 																<int key="NSvFlags">256</int>
-																<string key="NSFrame">{{12, 6}, {863, 29}}</string>
+																<string key="NSFrame">{{12, 46}, {863, 29}}</string>
 																<reference key="NSSuperview" ref="443817184"/>
 																<reference key="NSWindow"/>
-																<reference key="NSNextKeyView"/>
+																<reference key="NSNextKeyView" ref="112458239"/>
 																<bool key="NSEnabled">YES</bool>
 																<object class="NSTextFieldCell" key="NSCell" id="812860538">
 																	<int key="NSCellFlags">67108864</int>
@@ -12609,6 +12609,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<string>fFramerateMatrix</string>
 							<string>fFramerateVfrPfrCell</string>
 							<string>fLoadChaptersButton</string>
+							<string>fPictureFiltersField</string>
 							<string>fPictureSettingsField</string>
 							<string>fPresetDrawer</string>
 							<string>fPresetNewDesc</string>
@@ -12669,7 +12670,6 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<string>fVidRatePopUp</string>
 							<string>fVidTurboPassCheck</string>
 							<string>fVidTwoPassCheck</string>
-							<string>fPictureFiltersField</string>
 							<string>fWindow</string>
 							<string>fX264FastDecodeCheck</string>
 							<string>fX264LevelPopUp</string>
@@ -12716,6 +12716,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<string>NSMatrix</string>
 							<string>NSButtonCell</string>
 							<string>NSButton</string>
+							<string>NSTextField</string>
 							<string>NSTextField</string>
 							<string>NSDrawer</string>
 							<string>NSTextField</string>
@@ -12776,7 +12777,6 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<string>NSPopUpButton</string>
 							<string>NSButton</string>
 							<string>NSButton</string>
-							<string>NSTextField</string>
 							<string>NSWindow</string>
 							<string>NSButton</string>
 							<string>NSPopUpButton</string>
@@ -12826,6 +12826,7 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<string>fFramerateMatrix</string>
 							<string>fFramerateVfrPfrCell</string>
 							<string>fLoadChaptersButton</string>
+							<string>fPictureFiltersField</string>
 							<string>fPictureSettingsField</string>
 							<string>fPresetDrawer</string>
 							<string>fPresetNewDesc</string>
@@ -12886,7 +12887,6 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<string>fVidRatePopUp</string>
 							<string>fVidTurboPassCheck</string>
 							<string>fVidTwoPassCheck</string>
-							<string>fPictureFiltersField</string>
 							<string>fWindow</string>
 							<string>fX264FastDecodeCheck</string>
 							<string>fX264LevelPopUp</string>
@@ -13022,6 +13022,10 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<object class="IBToOneOutletInfo">
 								<string key="name">fLoadChaptersButton</string>
 								<string key="candidateClassName">NSButton</string>
+							</object>
+							<object class="IBToOneOutletInfo">
+								<string key="name">fPictureFiltersField</string>
+								<string key="candidateClassName">NSTextField</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">fPictureSettingsField</string>
@@ -13262,10 +13266,6 @@ AAMAAAABAAEAAAFTAAMAAAAEAAAFwgAAAAAACAAIAAgACAABAAEAAQABA</bytes>
 							<object class="IBToOneOutletInfo">
 								<string key="name">fVidTwoPassCheck</string>
 								<string key="candidateClassName">NSButton</string>
-							</object>
-							<object class="IBToOneOutletInfo">
-								<string key="name">fPictureFiltersField</string>
-								<string key="candidateClassName">NSTextField</string>
 							</object>
 							<object class="IBToOneOutletInfo">
 								<string key="name">fWindow</string>
