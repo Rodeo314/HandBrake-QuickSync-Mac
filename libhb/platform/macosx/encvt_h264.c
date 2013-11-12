@@ -244,6 +244,14 @@ OSStatus setupMagicCookie(hb_work_object_t * w, hb_job_t * job, hb_work_private_
     if (err != noErr)
         return err;
 
+#define PRINT_AVAILABLE_OPTIONS
+#ifdef  PRINT_AVAILABLE_OPTIONS
+    CFDictionaryRef availableOptsDict;
+    VTSessionCopySupportedPropertyDictionary(pv->session, &availableOptsDict);
+    CFShow(availableOptsDict);
+    CFRelease(availableOptsDict);
+#endif
+
     size_t rgbBufSize = sizeof(uint8) * 3 * job->width * job->height;
     uint8 *rgbBuf = malloc(rgbBufSize);
     
