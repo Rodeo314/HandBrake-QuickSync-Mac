@@ -280,11 +280,13 @@ static void closePrivData( hb_work_private_t ** ppv )
                     pv->context->codec->name, pv->nframes, pv->decode_errors,
                     pv->ndrops );
         }
+#ifdef USE_VDA
         if ( pv->context->hwaccel_context )
         {
             ff_vda_destroy_decoder(pv->context->hwaccel_context);
             free (pv->context->hwaccel_context);
         }
+#endif
         if ( pv->sws_context )
         {
             sws_freeContext( pv->sws_context );
